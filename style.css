@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, #ffcc00 0%, #b30000 55%, #6b0000 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+#main{
+  width: 100%;
+  padding: 20px;
+}
+
+#container{
+  max-width: 420px;
+  margin: auto;
+  padding: 24px;
+  border-radius: 14px;
+  background: rgba(0,0,0,0.35);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+h1{
+  margin: 0 0 14px;
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+  color: #ffcc00;
+}
+
+#countdown{
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #ffcc00;
+}
+
+#result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin: 18px auto;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.10);
+  border: 1px solid rgba(255,204,0,0.35);
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+button{
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#button-clicker{
+  background: #ffcc00;
+  color: #5a0000;
+}
+
+#button-clicker:hover{
+  filter: brightness(1.05);
+}
+
+#button-clicker:disabled{
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+#reset{
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.18);
+}
+
+.catchphrase{
+  margin: 16px 0 0;
+  font-size: 1rem;
+  color: rgba(255,255,255,0.85);
+}
